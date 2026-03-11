@@ -1,0 +1,18 @@
+[package]
+name = "autonomous-web-agent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+scraper = "0.17"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "1.0"
+url = "2"
+regex = "1"
+clap = { version = "4", features = ["derive"] }
+colored = "2"
+chrono = { version = "0.4", features = ["serde"] }
